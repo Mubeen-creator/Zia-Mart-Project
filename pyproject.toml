@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "onlineziamart"
+version = "0.1.0"
+description = ""
+authors = ["Mubeen-creator <mmaj8855@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.0"
+pydantic = {extras = ["email"], version = "^2.9.2"}
+python-dotenv = "^1.0.1"
+motor = "^3.6.0"
+passlib = "^1.7.4"
+python-jose = "^3.3.0"
+bcrypt = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
